@@ -1,0 +1,31 @@
+# --- Secrets -----------------------------------------------------------------
+# Holds OPENAI_API_KEY for episode 10. Never commit it.
+.env
+.env.*
+!.env.example
+
+# --- Python environments -----------------------------------------------------
+env/
+.env/
+venv/
+.venv/
+.langgraph-guardrails-youtube-env/
+
+# --- Python cache / build ----------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Jupyter -----------------------------------------------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- Editors / OS ------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store

@@ -1,0 +1,25 @@
+# LangGraph Guardrails YouTube series
+#
+# Setup (see README.md):
+#   conda create --prefix ./env python=3.13
+#   conda activate ./env
+#   pip install -r requirements.txt
+
+# --- Core (episodes 01-10) ---------------------------------------------------
+# StateGraph, conditional edges, InMemorySaver checkpointer, interrupt/Command
+langgraph==1.2.19
+# RunnableConfig, messages, tools
+langchain-core==1.7.3
+
+# --- Episode 10 (bonus): real OpenAI model -----------------------------------
+# ChatOpenAI with tool calling
+langchain-openai==1.7.3
+# Loads OPENAI_API_KEY / OPENAI_MODEL from .env
+python-dotenv==1.2.4
+
+# --- Notebooks ---------------------------------------------------------------
+jupyterlab==4.6.5
+ipykernel==7.4.0
+# Run notebooks headless: jupyter nbconvert --to notebook --execute <file>.ipynb
+nbformat==5.11.1
+nbconvert==7.17.2
