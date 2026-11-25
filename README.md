@@ -1,4 +1,4 @@
-# **LangGraph Guardrails Series**
+# **AI Guardrails with LangGraph Series**
 
 Welcome to the **LangGraph Guardrails Playlist** repository!
 
